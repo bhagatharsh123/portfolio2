@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harsh Bhagat Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <video autoplay muted loop class="video-background">
+        <source src="https://videos.pexels.com/video-files/3130284/3130284-uhd_2560_1440_30fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <nav id="desktop-nav">
+        <div class="logo">Harsh Bhagat</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Harsh Bhagat</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Harsh Bhagat</h1>
+            <p class="section__text__p2">Fresher</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('harsh Resume.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://linkedin.com/'" />
+                <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/'" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.jpg" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="text-container">
+                    <p>
+                      A electronics and telecommunication Engineering Student with an Extensive knowledge about high level programming languages like C,C++, HTML,CSS, JAVASCRIPT, Data structures and having an experience in developing projects. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#skills'" />
+    </section>
+    <section id="skills">
+
+        <h2 id="glow-text" class="skill">Skills</h2>
+    <div class="all">
+        <div class="lefter">
+          <div class="text">C programming</div>
+        </div>
+        <div class="left">
+          <div class="text">C++</div>
+        </div>
+        <div class="center">
+          <div class="explainer"><span>MY SKILLS</span></div>
+          <div class="text">Frontend Development</div>
+          </div>
+        <div class="right">
+          <div class="text">Backend Development</div>
+        </div>
+        <div class="righter">
+          <div class="text" ><a href=""></a>GITHUB</div>
+        </div>
+        </div>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/logo1.JPG" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Harmoniq</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/bhagatharsh123?tab=repositories'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://i.pinimg.com/originals/ae/74/89/ae7489a78a01cbed9749d381fc94262b.jpg" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">DigiSignature</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='http://signmaster.html'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://brock-it.ca/wp-content/uploads/2022/10/24352-scaled.jpg" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">PassWiz</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='http://127.0.0.1:5503/index%20(6).html'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'" />
+    </section>
+  
+        <section id="contact">
+            <section id="contact">
+            <p class="head">Feel free to contact me at: <br> <br> <a href="https://linkedin.com/" class="icon" target="_blank">
+                <i class="fab fa-linkedin"></i>Harsh_Bhagat<br><br>   <i class="fas fa-envelope"></i> <a href="https://mail.google.com/mail/u/0/#sent?compose=new" class="email-link">bhagatharsh070@gmail.com</a><br>
+            <br>
+               <i class="fab fa-whatsapp"></i> -  (91+) 8691839288</p>
+               
+        </section>
+      
+       </div>
+    <footer>
+        <p>&copy; 2024 Harsh Bhagat. All rights reserved.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu-links');
+            menu.classList.toggle('active');
+        }
+        
+    </script>
+</body>
+</html>
